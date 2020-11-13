@@ -1,0 +1,8 @@
+# Keybase
+include:
+  - .well-known
+
+# White-listed plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
