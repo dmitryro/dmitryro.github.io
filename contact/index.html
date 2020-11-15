@@ -72,7 +72,11 @@ role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="
     function success() {
       form.reset();
       button.style = "display: none ";
-      status.innerHTML = "Thanks!";
+      var status_tmp = status.innerHTML;
+      var myVar = setTimeout(function() { 
+           status.innerHTML = "Thanks! I'll be in touch!";
+      }, 2000);
+      status.innerHTML =  status_tmp;
     }
 
     function error() {
