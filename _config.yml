@@ -6,3 +6,10 @@ include:
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-pdf
+
+defaults:
+  - scope:
+      path: "resume"
+    values:
+      pdf: true
