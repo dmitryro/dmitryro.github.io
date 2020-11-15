@@ -26,7 +26,8 @@
   description: >
     3D Act is a project for onboarding, automation, Slack conversation management. I've set up a Flask/Docker site using Bulma
     (Buefy), Vue as its front end. 
-
+  video:
+    - https://youtu.be/17b7wFPYWoA
 
 
 
