@@ -25,6 +25,10 @@ category: portfolio
     <p>
       <strong>Technologies:</strong> {{ product.technologies | join: ", " }}
     </p>
+    <p>
+      {% if product.video %}
+           <strong>Youtube:</strong> <a href="{{ product.video }}">Watch</a>
+      {% endif %}
   </section>
   <div class="spacer"></div>
 {% endfor %}
