@@ -50,9 +50,15 @@ role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="
       <label for="message">How can I help you?</label>
       <textarea name="message" class="form-control" rows="4" width="100%" required></textarea>
     </div>
-     <input type="hidden" name="_next" value="//dmitryro.github.io/thanks.html">
-   <input id="my-form-button" type="submit" class="btn btn-lg" value="Let's do business together">
-  <p id="my-form-status"></p>
+    <div style="width:100%;">
+        <div style="width:40%;float:left;">
+         <input type="hidden" name="_next" value="//dmitryro.github.io/thanks.html">
+         <input id="my-form-button" type="submit" class="btn btn-lg" value="Let's do business together">
+        </div>
+        <div style="width:58%;float:left;" id="my-form-status">
+        </div>
+        <div style="clear:both;"></div>
+    </div>
 </form>
 
 <!-- Place this script at the end of the body tag -->
@@ -74,7 +80,7 @@ role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="
       var status_tmp = status.innerHTML;
       status.innerHTML = "Thanks! I'll be in touch!";
       var myVar = setTimeout(function() { 
-           status.innerHTML = status_tmp;
+           status.innerHTML = "";
       }, 3000);
     }
 
