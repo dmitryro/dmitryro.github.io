@@ -535,6 +535,9 @@ img {
   font-style: italic;
 }
 
+.front {
+  font-style: normal;
+}
 .gist {
   font-size: 0.7em !important;
   line-height: 130% !important;
