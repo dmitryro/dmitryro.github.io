@@ -55,7 +55,8 @@ role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="
          <input type="hidden" name="_next" value="//dmitryro.github.io/thanks.html">
          <input id="my-form-button" type="submit" class="btn btn-lg" value="Let's do business together">
         </div>
-        <div style="width:58%;float:left;" id="my-form-status">
+        <div style="width:58%;float:left;">
+           <div id="my-form-status"></div>
         </div>
         <div style="clear:both;"></div>
     </div>
@@ -81,7 +82,7 @@ role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="
       status.innerHTML = "Thanks! I'll be in touch!";
       var myVar = setTimeout(function() { 
            status.innerHTML = "";
-      }, 3000);
+      }, 1500);
     }
 
     function error() {
