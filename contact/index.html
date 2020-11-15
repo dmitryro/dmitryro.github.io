@@ -52,7 +52,6 @@ role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="
     </div>
      <input type="hidden" name="_next" value="//dmitryro.github.io/thanks.html">
    <input id="my-form-button" type="submit" class="btn btn-lg" value="Let's do business together">
-  or <a href="mailto:dmitryro@gmail.com">drop a simple email</a>
   <p id="my-form-status"></p>
 </form>
 
@@ -73,10 +72,10 @@ role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="
       form.reset();
       button.style = "display: none ";
       var status_tmp = status.innerHTML;
+      status.innerHTML = "Thanks! I'll be in touch!";
       var myVar = setTimeout(function() { 
-           status.innerHTML = "Thanks! I'll be in touch!";
-      }, 2000);
-      status.innerHTML =  status_tmp;
+           status.innerHTML = status_tmp;
+      }, 3000);
     }
 
     function error() {
