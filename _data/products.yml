@@ -2,13 +2,13 @@
   image: divorcesus.png
   url: https://divorcesus.com
   oneliner: Legal Services - Divorces, Marital Law, Family Law
-  role: Lead Developer
+  role: CTO/Lead Developer
   description: >
     As the CTO and Lead Developer in  of Divorces US,I implemented the latest corporate Django site.
     We put together a simple Django/Django Rest Framework app, using Vue and Bootstrap as its front end.
     Payment is handled by Stripe, Chat is handled via Drift.
   technologies:
-    - Django
+    - Django/Django Rest Framework
     - Stripe
     - Drift
     - PostgreSQL
@@ -18,9 +18,11 @@
   image: 3dact.png
   url: https://3dact.com
   oneliner: 3D Act AI Automation Agency
-  role: Freelance Web Engineer
+  role: CTO/Architect/Senior Developer
   technologies:
     - Flask
+    - Neo4J 
+    - Kafka/Faust
     - PostgreSQL
     - Buefy/Bulma/Vue
   description: >
