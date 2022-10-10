@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="{% if page.language == nil %}en{% else %}{{ page.language }}{% endif %}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="aexITLS38FdIRzwj25OVWxm87rpa9l-UV0URTyC9cTs" />
+  <title>
+    {{ page.title }}
+    {% if page.category == 'blog' and page.url != '/blog/index.html' %}
+    - Dmitry Roitman
+    {% endif %}
+  </title>
+  <link rel="stylesheet" href="/css/site.css">
+  <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu+Mono|Roboto:400,700,300italic">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-52308419-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-52308419-1');
+</script>
+  {% if page.description %}<meta name="description" content="{{page.description}}" />{% endif %}
+
+  {% if page.url == '/index.html' %}
+    <link rel="alternate" hreflang="fr" href="/fr/" />
+  {% elsif page.url == '/fr/index.html' %}
+    <link rel="alternate" hreflang="en" href="/" />
+  {% endif %}
+
+  {{ page.extra_head }}
+
+  {% if page.category == 'blog' %}
+    {% if page.photo %}
+      <meta property="og:type" content="article">
+      <meta property="og:image" content="http://sebastien.saunier.me/images/posts/{{ page.photo }}" />
+    {% endif %}
+  {% endif %}
+</head>
+<body>
+  <!-- <div class="top-bar">
+  </div> -->
+
+  <div class="header-container">
+    <header class="inner">
+      <nav>
+        <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">About</a>
+        <a class="{% if page.category == 'portfolio' %} selected {% endif %}" href="/portfolio/">Portfolio</a>
+        <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Blog</a>
+        <a class="{% if page.category == 'contact' %} selected {% endif %}" href="/contact/">Contact</a>        
+        <!-- <a class="{% if page.category == 'contact' %} selected {% endif %} contact" href="/contact/">Contact</a> -->
+        <!-- <a href="https://www.officehour.fr/dmitryro" target="_blank">Contact</a> -->
+      </nav>
+      <div class="pull-right right logo">
+        <div class="name">
+          <a href="/">Dmitry Roitman</a><br/>
+          <small>
+            <em>
+                CTO, Solutions Architect, Developer
+            </em>
+          </small>
+        </div>
+        <img class="avatar" src="/images/dmitry.jpg"  alt="Dmitry's profile pic" />
+      </div>
+      <div class="clear"></div>
+    </header>
+    <div class="clear"></div>
+  </div>
+
+  {{ content }}
+  <div class="separator"></div>
+
+  <div  style="border-bottom: 1px solid #ddd"></div>
+  <footer>
+    <ul class="links">
+      <li>
+        <a href="https://github.com/dmitryro" title="See my code on GitHub">
+          <i class="icon-github"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/intent/follow?screen_name=dmitryro" title="Follow me on Twitter">
+          <i class="icon-twitter"></i>
+      <li>
+        <a href="https://www.linkedin.com/in/dmitry-r-4104b56/"  title="Connect with me on LinkedIn">
+          <i class="icon-linkedin"></i>
+        </a>
+      </li>        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/dmitryro/" title="Connect with me on Facebook">
+          <i class="icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/dmitryro/" title="Connect with me on Facebook">
+          <i class="icon-se"></i>
+        </a>
+      </li>
+      <li style="margin-top:0.5em;">
+
+
+<a href="https://stackoverflow.com/users/3358074/dmitryro">
+<svg aria-hidden="true" focusable="false" 
+data-prefix="fab" data-icon="stack-overflow" class="svg-inline--fa fa-stack-overflow fa-w-1" 
+style="width:1%;height:1%;"
+role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M290.7 311L95 269.7 86.8 309l195.7 41zm51-87L188.2 95.7l-25.5 30.8 153.5 128.3zm-31.2 39.7L129.2 179l-16.7 36.5L293.7 300zM262 32l-32 24 119.3 160.3 32-24zm20.5 328h-200v39.7h200zm39.7 80H42.7V320h-40v160h359.5V320h-40z"></path></svg>
+</a>
+      </li>
+    </ul>
+  </footer>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=UA-52308419-1"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+  <!--
+  <script id="_webengage_script_tag" type="text/javascript">
+    // var _weq = _weq || {};
+    // _weq['webengage.licenseCode'] = '11b563c38';
+    // _weq['webengage.widgetVersion'] = "4.0";
+
+    // (function(d){
+    //   var _we = d.createElement('script');
+    //   _we.type = 'text/javascript';
+    //   _we.async = true;
+    //   _we.src = (d.location.protocol == 'https:' ? "https://ssl.widgets.webengage.com" : "http://cdn.widgets.webengage.com") + "/js/widget/webengage-min-v-4.0.js";
+    //   var _sNode = d.getElementById('_webengage_script_tag');
+    //   _sNode.parentNode.insertBefore(_we, _sNode);
+    // })(document);
+  </script>
+  -->
+
+</body>
+</html>
