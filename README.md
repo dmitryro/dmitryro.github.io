@@ -1,4 +1,4 @@
-Jekyll website serving [Dmitry Roitman](http://dmitryroitman.com) homepage, blog and portfolio. He is a [startup executive technical coach](http://dmitryroitman.com) based in Paris, France
+Jekyll website serving [Dmitry Roitman](http://dmitryroitman.com) homepage, blog and portfolio. He is a [consultant and CTO](http://3dact.com) based in NYC, USA
 
 --
 
