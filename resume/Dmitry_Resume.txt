@@ -1,0 +1,156 @@
+
+Objective:
+I have over 20 years of professional application development experience. Interested in an ambitions software position that will fully utilize my professional and personal resources, allow gaining new experiences and share my skills and knowledge with the others. 
+Technical Skills:
+Python (Flask, Django, Tornado, Sanic, SQLAlchemy, Alembic) – 12 years
+Infrastructure – AWS, ELK, Prometheus, Ansible, Salt, Docker – 7 years
+Software Architecture - (15 years)
+Java Development – Spring, Play, Websphere, JBoss, Tomcat (10 years)
+Integration Tools: Jenkins (10 years), Ansible (7 years), Salt (7 years)
+Messaging: Celery (10 years), Kafka (5 years), RabbitMQ/AMQP (5 years), Samza (2 years)
+Go (8 Years) 
+System Administration, bash scripting – Debian/Ubuntu, RHEL/Fedora, BSD (20 years).
+Scientific Python: NumPy, SciPy, Pandas, Keras, Theano, Tensorflow, Fast.ai, Sympy
+NLP: Spacy, NLTK, Stanford, Stanza, Gensim (6 years).
+Scraping: BeautifulSoup (10 years), Scrapy (10 years).
+Data Science: Mathematical Modeling, Functional Analysis, Multivariate Calculus, Linear Algebra, Statistics, Combinatorics (20 years)
+Front End –  Angular, TypeScript, React, Vue (8 years), D3 (5 years), Three.js (2 years)
+Airflow Data Orchestration – 3 years.
+MVC Frameworks: Django (10 year), Flask (10  years) , Symfony (3 years), Spring (7 years)
+NoSQL: Redis (6 years), CouchDB (2 years), Neo4J (4 years), Elasticsearch (4 years)
+RDBMS - PostgreSQL (12 years) , Oracle (10 years), MySQL (15 Years)
+SOA –SOAP, Axis , gRPC, REST, Oauth2 (Django Rest Framework, Restless, TastyPie, JWT, suds) (15 years).
+Security: Kerberos, OpenSSL, SELinux, RSA, LDAP, OAuth2 (10 years)
+Version Control:  Git - Github , Bitbucket (8  years),  subversion (10 years).
+UX, UI – building and architecting user friendly interfaces (15 years)
+Project Management: Jira, Trello, Bitbucket, Github, Asana (10 years)
+
+
+ LANGUAGES:
+English (full fluency)
+Russian (full fluency)
+Hebrew (full fluency)
+EDUCATION:    September 1995 – July 1999
+HAIFA UNIVERSITY, ISRAEL – B.SC.      Major in Math with Second Major in Computer Science
+
+CERTIFICATIONS:  SUN CERTIFIED JAVA PROGRAMMER
+
+
+PROFESSIONAL EXPERIENCE:
+Senior Staff Engineer                                                                                                  Feb 2021 – Now
+Legend Energy Advisors https://www.legendenergyadvisors.com,                              New York, NY                                                    
+Architected, developed, documented and designed migration process of the corporate analytics platform into newer stack - Angular, Python3, PostgreSQL, Celery, Flask, Django.
+Architected, designed and developed improved features for session management, analytics dashboards data streaming, including both user interface and the API.
+Architected, designed, developed and maintained RabbitMQ AMQP messaging infrastructure.
+Architected, designed, developed and integrated data visualization tools - dashboards, charts, data analysis interfaces using D3, Three.js, HighCharts, Angular, Pandas, Flask, Django. 
+Designed, developed and architected Celery tasks and asynchronous architectures for 
+diverse corporate applications.
+Architected, developed and maintained Single Sign On features using Okta and Microsoft.
+Have built several internal applications using Angular and Python3/Celery for company’s monitoring needs.
+Environment:  Angular, TypeScript, Python3, Three.js, D3, HighCharts, Flask, Django, Pandas, SQLAlchemy, PostgreSQL, ELK, Nginx, RabbitMQ, Redis, Celery, Jenkins, Prometheus, Grafana, Bitbucket Pipelines.
+
+Solutions Architect                                                                                               July 2018 – Feb 2021
+1010Data http://1010data.com, New York, NY                                                    
+Architected, developed, documented and designed data pipelining solutions.
+Designed, architected and developed Airflow DAGs, operators, sensors, custom plugins.
+Designed event infrastructures using Kafka
+Performed major migrations of Flask projects into dockerized versions. Handled Docker orchestration, chose technology stacks, negotiated features, use cases and deliverables with stakeholders.
+Documented and managed migration and development process of Airflow Data Pipelines using Airflow DAGs.
+Designed, developed and architected Celery tasks and asynchronous architectures for 
+diverse corporate applications.
+Architected, developed and maintained Single Sign On features using Okta, Freshdesk.
+Monitored and designed Docker/Linux infrastructure. Architected, designed and maintained CI/CD with Bitbucket Pipelines. Built ELK – based file monitoring infrastructure.
+Environment:  Apache Airflow, Flask, SQLAlchemy, PostgreSQL, ELK, Kafka, Nginx/Gunicorn, Python3, Redis, Docker, Celery, Pandas, Kubernetes, AWS, Java, Scala, Spark, Bitbucket Pipelines, Vue.
+
+Senior Developer                                                                                                  July 2017 –  July 2018
+Thirstie  https://strongwater.net, New York, NY
+Built a marketplace platform, using Tornado/Django/Celery. Implemented currency and parallelism features (concurrent.futures, asyncio, Celery, RQ, multiprocessing).
+Architected, designed and developed schema and data model for the platform 
+Implemented authorization service using JWT. Evaluated prospective use of JWT for SSO.
+Performed extensive business analysis on the deliverables, deadlines, resources, skills, prioritized features and technical tasks.
+Implemented infrastructure, performed DevOps tasks (CI, CD) using Jenkins, Docker, Ansible, Supervisor, Kibana.
+Migrated and configured earlier versions into new infrastructure, codebase and schema.
+
+
+Performed legacy data migrations and backups, schema upgrades and maintenance using Pewee, MySQL, yoyo-migrations, Pickle
+Integrated Braintree Payments into the platform
+Implemented third party integration for TaxJar, Twillio
+Performed load and bootstrap time optimizations using data type optimization, schema normalization, Redis optimizations.
+Designed integration layer using gRPC, Celery, RQ. 
+
+Environment:  Tornado, Django,  Flask, SQLAlchemy, MySQL, PostgreSQL, gRPC, Digital Ocean, AWS (EC2, S3, ELB, VPC, CloudFront, Elasticache, Elastic Search), Ansible, Nginx/UWSGI/Gunicorn, Python, Redis, Docker, Celery, RQ, React, Stylus
+
+Python Developer / Solutions Architect                                                January 2015 – July 2017
+Art Revolution  https://artrevolution.com New York, NY
+Built a Django Rest Framework – based social platform, utilizing Django Rest Framework 
+Architected, designed and developed schema and data model for the platform – Django
+Implemented signal-based message queueing using Redis MQ  
+Implemented social networking Оauth2 integration (Facebook, Instagram, Google Plus)
+Implemented infrastructure, performed DevOps tasks (CI, Deployment Pipeline) using – EC2, S3, ELB, RDS, Ubuntu configuration and monitoring, Munin, Supervisor, Redis MQ, Ansible, Fabric, Docker.
+Migrated and configured earlier versions into new infrastructure, codebase and schema.
+Implemented media storage an image processing using Django, Go and S3/CloudFront.
+Built image processing tools using Go.
+AI, Machine learning - Performed Image Processing Research for image classifier deep learning network built with Theano , Keras. 
+Data Science - Built analytical visualization graphs, performed data analysis using – 
+Pandas, SciPy, matplotlib, Pandas-DRF , D3, Scrapy, Scikit-Learn, D3. 
+Performed legacy data migrations and backups, schema upgrades and maintenance.
+Integrated Brantree Payments Marketplace into the platform
+Implemented UPS, USPS and DHL integration (Python, SUDS)
+Built a Django Rest Framework-based API providing robust and clean integration of restful JSON endpoints into the client layer (React.JS, D3, Vanilla JavaScript) 
+Scraped and aggregated online date using Scrapy 
+Performed load and bootstrap time optimizations using data types optimization, schema normalization, PgPool-II and PgBouncer clustering.
+
+Environment:  Django, Go, Postgres, AWS (EC2, S3, ELB, VPC, CloudFormation, Elasticache), Ansible, Nginx/uwsgi, Python, Redis, Docker, React.
+Integration Developer / Architect                                                                             Jan. 2014 - Dec 2014                                                                         Signetcs http://signetcs.com New York, NY                                                                                                                                  
+Built the GEICO B2B integration infrastructure utilizing Python, suds SOAP, Node.js.
+Developed a SOAP- based vendor booking API – a set of corporate endpoints for requests and responses handling, using Node.js, SOAP, Tornado, Twisted,  Redis  
+Built an architecture of the business integration.
+Built a tcp/redis based job handling  functionality
+Data Science – performed log analysis using AWK, Python, Pandas, D3. Built models and performed dataset analysis in terms of those models.
+Configured and programmed system security with Kerberos/OpenSSL/Node.js/Tornado
+System administration – General CentOS configuration,  Munin, Supervisor, Redis, Celery, Fabric
+Environment:  Node.js, Nginx, Python 2.7, МySQL, Redis, Tornado, Twisted, SOAP, TCP,                    Rails 4, Ruby 2. 
+
+Senior Developer                                                                                                  Sep. 2013 – Dec. 2013                                                                         CPX INTERACTIVE   http://cpxinteractive.com New York, NY                                                                                                                                                                                 
+Built a feed aggregating RESTful API, allowing client application to consume feed JSON data.
+Designed and implemented the backend infrastructure (Django, Tornado, Redis)
+Developed the API platform, Django Rest Framework, Twitter API, Facebook API
+Worked on the architecture, functional specs, user stories
+Environment:   Nginx/Gunicorn/uwsgi, Python 2.7, Django, PostgreSQL, Redis, Tornado, AWS.
+
+Senior Consultant                                                                                                  May 2013 – Aug 2013 Northpoint Solutions   http://northps.com New York, NY                                                                                                                                                       
+Took part in the redesign of Rotary International Community site – a large scale community site featuring intranets, clubs, map-based club search, group-specific content
+Utilized the full stack of Drupal technology.
+Took leading part in development of several custom modules. 
+Utilized Organic Groups to implement group membership functionality
+Utilized Pathauto/i18n to implement internationalization
+Used Drush/Features to export reusable configurations
+Performed theming tasks – exporting and theming views, theming pages, email messages, working with SASS and Compass
+Utilized Form API, webform, Drupal mail, features, taxonomies to implement  form interfaces.
+Implemented SOAP integration of the third party APIs – Netforum, Okta
+Worked extensively with Google Maps API, GeoIP to implement the club search and location logic                                   
+Environment:   Drupal 7,  Acquia Cloud, Netforum VPN
+Developer / Consultant                                                                                         Feb 2013 – May 2013 Analog Method  http://analogmethod.com  New York, NY                                                               
+Performed code refactoring and optimization
+Developed custom modules using Google Maps API and GeoIP to implement locations of the sea teams available
+Performed theming tasks – theming views, pages, email messages 
+Utilized Form API, webform, Drupal mail, features to implement interactive form interfaces, including multistep registration, contact forms, inquiry forms and more. 
+Implemented SOAP integration of the e-commerce features – box membership (a onetime payment bonus feature for members).
+Performed debugging and maintenance tasks  using Drush
+Was using Agile development using Trello, FogBugz, Basecamp, github 
+Environment:   Drupal 7, Rackspace Cloud
+
+Independent Consultant / Freelancer                                                              Feb. 2009 – Dec. 2014
+Development and maintenance of the following web sites 
+http://www.pommrouge.com  (WordPress)
+http://www.ruthgalerealestate.com   (РHP, JavaScript)
+https://www.covenanthouse.org     (Drupal 6) – worked as a freelanced Drupal 6 developer to utilize a non-profit organization site, utilizing Ubercart to accept public donations. Implemented several custom modules customizing Ubercart-based donation process and user membership functionality.          
+                                                                                      
+Java Software Developer                        				     January 01 – Feb. 2009 Algorithmic Creations, New York, NY                                                                                           
+Designed, architected and developed message-driven payment processing for ClickAndBuy
+Managed Linux infrastructure for corporate Java deployments.
+Performed diverse integration tasks for APIs, involving web services (customer confirmation API - listing, prices, and other customer-specific info) using Axis 1.4. Used Axis 1.4 to integrate 3rd party components into payment system. 
+Performed MySQL 5/Oracle 10g/Hibernate 3 back-end development and schema management 
+Environment:   J2EE, Spring, JSF, Hibernate, Axis, MySQL, Oracle, Tomcat, Apache Tomcat, google tools, PayPal API, JavaScript (JQuery).                                    
+
+ 
