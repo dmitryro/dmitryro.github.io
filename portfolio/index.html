@@ -1,0 +1,34 @@
+---
+layout: portfolio
+title: Sébastien Saunier - Portfolio
+description: Sébastien Saunier's Portfolio of awesome web applications built with Love, Lean, Agile, Rails, PHP and ASP.NET MVC
+category: portfolio
+---
+
+<p class="fancy">
+  Here are some of the products I worked on. In need of ML/AI/Data Architectire? 
+  An MVP or just the next morning Django/Flask/Go site, sophisticated automation 
+  UI or a corporate analytics dashboard?
+  <a href="/contact/">Ping me</a> and let's build awesome and useful stuff!
+</p>
+
+{% for product in site.data.products %}
+  <section>
+    <a href="{{ product.url }}">
+      <img class="inline pull-right" src="/images/portfolio/{{ product.image }}"
+           alt="{{ product.name }} Screenshot" width="280">
+    </a>
+    <h2><a href="{{ product.url }}">{{ product.name }}</a></h2>
+    <h3>{{ product.oneliner }}</h3>
+    <p><strong>My role:</strong> {{ product.role }}</p>
+    <p>{{ product.description}}</p>
+    <p>
+      <strong>Technologies:</strong> {{ product.technologies | join: ", " }}
+    </p>
+    <p>
+      {% if product.video %}
+           <strong>Youtube:</strong> <a href="{{ product.video }}">Watch</a>
+      {% endif %}
+  </section>
+  <div class="spacer"></div>
+{% endfor %}

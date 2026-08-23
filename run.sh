@@ -1,0 +1,12 @@
+cp ~/resume/cover_letter.docx .
+cp ~/resume/cover_letter.pdf .
+cp ~/resume/cover_letter.epub .
+cp ~/resume/Dmitry_Resume.docx .
+cp ~/resume/Dmitry_Resume.epub .
+cp ~/resume/Dmitry_Resume.pdf .
+cp ~/resume/Dmitry_Resume.docx ./resume
+cp ~/resume/Dmitry_Resume.epub ./resume
+cp ~/resume/Dmitry_Resume.pdf ./resume
+cp ~/resume/Dmitry_Resume.docx ./resumes
+cp ~/resume/Dmitry_Resume.epub ./resumes
+cp ~/resume/Dmitry_Resume.pdf ./resumes

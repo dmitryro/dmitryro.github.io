@@ -1,0 +1,36 @@
+- name: Divorces US
+  image: divorcesus.png
+  url: https://divorcesus.com
+  oneliner: Legal Services - Divorces, Marital Law, Family Law
+  role: CTO/Lead Developer
+  description: >
+    As the CTO and Lead Developer in  of Divorces US,I implemented the latest corporate Django site.
+    We put together a simple Django/Django Rest Framework app, using Vue and Bootstrap as its front end.
+    Payment is handled by Stripe, Chat is handled via Drift.
+  technologies:
+    - Django/Django Rest Framework
+    - Stripe
+    - Drift
+    - PostgreSQL
+    - AWS
+
+- name: 3D Act
+  image: 3dact.png
+  url: https://3dact.com
+  oneliner: 3D Act AI Automation Agency
+  role: CTO/Architect/Senior Developer
+  technologies:
+    - Flask
+    - Neo4J 
+    - Kafka/Faust
+    - PostgreSQL
+    - Buefy/Bulma/Vue
+  description: >
+    3D Act is a project for onboarding, automation, Slack conversation management. I've set up a Flask/Docker site using Bulma
+    (Buefy), Vue as its front end. 
+  video:
+    - https://youtu.be/17b7wFPYWoA
+
+
+
+

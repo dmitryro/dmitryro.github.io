@@ -1,0 +1,14 @@
+# Keybase
+include:
+  - .well-known
+
+# White-listed plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+defaults:
+  - scope:
+      path: "resume"
+    values:
+      pdf: true
